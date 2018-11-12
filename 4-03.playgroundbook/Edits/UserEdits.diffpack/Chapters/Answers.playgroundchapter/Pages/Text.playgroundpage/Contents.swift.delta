@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>
+// Created on: November 2018
+// Created by: Brody MacNeil
+// Created for: ICS3U
+// This program show your info all together
+
+func showAddress(aptNumber : String, address : String, city : String, province : String, postalCode : String ) {
+    show("\(aptNumber) \(address) \(city) \(postalCode)")
+}
+show("If no apt Number enter 1")
+var aptNumber = ask("Enter apt number")
+var address = ask("Enter your address ")
+var city = ask("what city do you live in")
+var province = ask("what province do you live in.")
+var postalCode = ask("what is your postal code")
+
+if aptNumber == "\(0)" {
+    show("\(address), \(city), \(province), \(postalCode)")
+} else {
+showAddress(aptNumber: aptNumber, address: address, city: city, province: province, postalCode: postalCode)
+
+}
+
+
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{145, 767}</string>
+			<key>OriginalContent</key>
+			<string>show("What is your name?")
+
+let name = ask("Name")
+
+show("Hi " + name)
+</string>
+			<key>OriginalRange</key>
+			<string>{145, 71}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Answers.playgroundchapter/Pages/Text.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
